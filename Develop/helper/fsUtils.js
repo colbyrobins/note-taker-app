@@ -17,4 +17,16 @@ const readAndAppend = (content, file) => {
     })
 }
 
-module.exports = { readAndAppend };
+function readFile(file) {
+    return new Promise((resolve, reject) => {
+        fs.readFile(file, 'utf8', (err, data) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(JSON.parse(data));
+            }
+        });
+    });
+}
+
+module.exports = { readAndAppend, readFile, writeToFile };
