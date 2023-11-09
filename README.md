@@ -40,8 +40,6 @@ None
 
 ## Test Instructions
 
-```
-
 ## Questions?
 
 Github Profile: <https://github.com/colbyrobins>
