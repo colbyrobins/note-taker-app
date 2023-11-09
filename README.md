@@ -9,8 +9,9 @@ These apps offer a convenient and efficient way to capture information, thoughts
 
 * [Description](#Description)
 * [Table of Contents](#table-of-contents)
+* [Usage](#usage)
 * [Installation](#Installation)
-* [Usage](#Usage)
+* [Deployed Location](#deployed-location)
 * [License](#License)
 * [Test Instructions](#test-instructions)
 
@@ -20,7 +21,7 @@ These apps offer a convenient and efficient way to capture information, thoughts
 ```Bash
 git clone git@github.com:colbyrobins/note-taker-app.git
 
-cd cd note-taker-app/Develop
+cd note-taker-app/Develop
 
 npm install
 
@@ -28,11 +29,12 @@ npm install
 
 ## Usage
 
-```Bash
+To create a local instance of the note-taking app run `npm start`
 
-```
+## Deployed Location 
 
-Video tutorial 
+https://note-taker-app-crobins-11646524d270.herokuapp.com/
+
 
 ## License
 
